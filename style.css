@@ -16,19 +16,20 @@
 
   @keyframes animacao {
     0% {
-      transform: translateX(-15px);
+      transform: translateX(-5px);
     }
     50% {
-      transform: translateX(15px);
+      transform: translateX(5px);
     }
     100% {
-      transform: translateX(-15px);
-    }
+      transform: translate(-5px);
+    } 
   }
-  
-    [class^="cx"]:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+
+  #pagbank:hover {
+    background-color: rgba(7, 138, 29, 0.1);
     animation: animacao 7s infinite;
+
   }
 
   @keyframes animacao {
@@ -43,8 +44,141 @@
     } 
   }
 
+  #losango:hover {
+    background-color: rgba(133, 6, 80, 0.1);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  #renner:hover {
+    background-color: rgba(168, 7, 7, 0.1);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  #berlanda:hover {
+    background-color: rgba(9, 85, 224, 0.1);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .grafico:hover {
+    background-color: rgba(102, 12, 192, 0.2);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .estrategia:hover {
+    background-color: rgba(102, 12, 192, 0.2);
+    animation: animacao 7s infinite;
+
+  }
+
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .campanhas:hover {
+    background-color: rgba(102, 12, 192, 0.2);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .resultado:hover {
+    background-color: rgba(102, 12, 192, 0.2);
+    animation: animacao 7s infinite;
+
+  }
+
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
   .importacao:hover {
-    background-color: rgba(235, 232, 238, 0.20);
+    background-color: rgba(102, 12, 192, 0.2);
     animation: animacao 7s infinite;
 
   }
@@ -65,110 +199,6 @@ h1 {
 }
 
 
-#container {
-  display: flex;
-  /* position: absolute; */
-  background-color: linear-gradient(to right, rgb(87, 4, 182), #7707ac);
-  border: 7px solid #ffffff;
-  border-radius: 10px;
-  margin-top: 100px;
-  padding: 15px;
-  translate: 300px;
-  max-width: 450px;
-  height: 400px;
-  justify-content: space-between;
-  align-content: flex-start;
-  gap: 10px;
-  flex-wrap: wrap ;
-  /* box-shadow: 5px 5px 10px #000000, -5px -5px 10px #000000; */
-
-}
-
-
-.cx1 {
-    color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-size: 30px; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* position: absolute; */
-    background-color: rgba(68, 66, 70, 0.10);
-    /* display: flex; */
-    /* border: solid 2px transparent; */
-    width: 200px;
-    /* margin-top: 100px; */
-    height: 175px;
-    /* border-radius: 20px; */
-    /* translate: 700px; */
-}
-
-.cx2 {
-   color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-size: 30px; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* position: absolute; */
-    background-color: rgba(68, 66, 70, 0.10);
-    /* display: flex; */
-    /* border: solid 2px transparent; */
-    width: 200px;
-    /* margin-top: 100px; */
-    height: 175px;
-    /* border-radius: 20px; */
-    /* translate: 700px; */
-}
-.cx3 {
-  color: white;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  /* font-size: 30px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* position: absolute; */
-  background-color: rgba(68, 66, 70, 0.10);
-  /* display: flex; */
-  /* border: solid 2px transparent; */
-  width: 200px;
-  /* margin-top: 100px; */
-  height: 175px;
-  /* border-radius: 20px; */
-  /* translate: 700px; */
-}
-
-.cx4 {
-  color: white;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  /* font-size: 30px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* position: absolute; */
-  background-color: rgba(68, 66, 70, 0.10);
-  /* display: flex; */
-  /* border: solid 2px transparent; */
-  width: 200px;
-  /* margin-top: 100px; */
-  height: 175px;
-  /* border-radius: 20px; */
-  /* translate: 700px; */
-}
-
-
-.cx5 {
-  color: white;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  /* font-size: 30px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* position: absolute; */
-  background-color: rgba(68, 66, 70, 0.10);
-  /* display: flex; */
-  /* border: solid 2px transparent; */
-  width: 200px;
-  /* margin-top: 100px; */
-  height: 175px;
-  /* border-radius: 20px; */
-  /* translate: 700px; */
-}
 
 
 .sair {
@@ -178,7 +208,7 @@ h1 {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   border: 3px;
-  border-radius: 10px;
+  border-radius: 20px;
   translate: 1800px;
   margin-top: -50px;
   width: 70px;
@@ -195,34 +225,116 @@ h1 {
   border-radius: 5px;
   width: 150px;
   height: 30px;
-  margin-top: 100px;
-  translate: 45px;
+  margin-top: -50px;
+  translate: 600px;
 }
 
-/* #barra {
-  margin-top: -100px;
-  height: 100px;
-  border:solid 3px white;
-  border-radius: 20px;
-  width: 1896px;
-} */
+
+.grafico {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color:rgb(23, 25, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: -50px;
+  translate: 575px;
+}
+
+.estrategia {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color:rgb(23, 25, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: -50px;
+  translate: 800px;
+}
+
+.campanhas {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color:rgb(23, 25, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: -50px;
+  translate: 1000px;
+}
+
+.resultado {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color:rgb(23, 25, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: -50px;
+  translate: 1075px;
+  
+}
 
 
-#container {
+#pagbank {
   display: flex;
   position: absolute;
-  background-color: linear-gradient(to right, rgb(87, 4, 182), #7707ac);
-  border: 7px solid #7f039e;
-  border-radius: 10px;
+  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  border-radius: 20px;
+  width: 600px;
+  height: 275px;
   margin-top: 100px;
-  padding: 15px;
-  translate: 220px;
-  max-width: 450px;
-  height: 300px;
-  justify-content: space-between;
-  align-content: flex-start;
-  gap: 10px;
-  flex-wrap: wrap ;
-  /* box-shadow: 5px 5px 10px #000000, -5px -5px 10px #000000; */
-
+  translate: 200px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
+
+#losango {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  border-radius: 20px;
+  width: 600px;
+  height: 275px;
+  margin-top: 100px;
+  translate: 1000px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+  
+}
+
+#berlanda {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  border-radius: 20px;
+  width: 600px;
+  height: 275px;
+  margin-top: 500px;
+  translate: 1000px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#renner {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  border-radius: 20px;
+  width: 600px;
+  height: 275px;
+  margin-top: 500px;
+  translate: 200px;
+ 
+   
+}
+
