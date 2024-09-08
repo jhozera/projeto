@@ -11,7 +11,7 @@
   }
   
   .h1:hover {
-    animation: animacao 15s infinite;
+    animation: animacao 1s infinite;
   } 
 
   @keyframes animacao {
@@ -185,8 +185,8 @@
 
 
 body {
-    background: linear-gradient(to bottom, rgb(23, 25, 26), #292828);
-    height: 125vh;
+    background: linear-gradient(to bottom, rgb(7, 91, 133), #202020);
+    height: 400vh;
     margin: 0;
 }
 
@@ -204,7 +204,7 @@ h1 {
 .sair {
   position: absolute;
   color: white;
-  background: linear-gradient(144deg,#af40ff,#4f46e5);
+  background: linear-gradient(144deg,#0391e4,#4f46e5);
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   border: 3px;
@@ -218,7 +218,7 @@ h1 {
 .importacao {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(23, 25, 26);
+  background-color:rgb(7, 57, 82);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -229,6 +229,7 @@ h1 {
   translate: 600px;
 }
 
+/* desativado por enquanto */
 
 .grafico {
   position: absolute;
@@ -247,7 +248,7 @@ h1 {
 .estrategia {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(23, 25, 26);
+  background-color:rgb(7, 57, 82);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -261,7 +262,7 @@ h1 {
 .campanhas {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(23, 25, 26);
+  background-color:rgb(7, 57, 82);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -271,6 +272,10 @@ h1 {
   margin-top: -50px;
   translate: 1000px;
 }
+
+
+/* desativado por enquanto */
+
 
 .resultado {
   position: absolute;
@@ -291,11 +296,11 @@ h1 {
 #pagbank {
   display: flex;
   position: absolute;
-  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  background: linear-gradient(to bottom, rgb(25, 25, 26 ), #00000010);
   border-radius: 20px;
   width: 600px;
   height: 275px;
-  margin-top: 100px;
+  margin-top: 650px;
   translate: 200px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
@@ -307,7 +312,7 @@ h1 {
   border-radius: 20px;
   width: 600px;
   height: 275px;
-  margin-top: 100px;
+  margin-top: 650px;
   translate: 1000px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
   
@@ -320,7 +325,7 @@ h1 {
   border-radius: 20px;
   width: 600px;
   height: 275px;
-  margin-top: 500px;
+  margin-top: 1000px;
   translate: 1000px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
@@ -332,7 +337,7 @@ h1 {
   border-radius: 20px;
   width: 600px;
   height: 275px;
-  margin-top: 500px;
+  margin-top: 1000px;
   translate: 200px;
  
    

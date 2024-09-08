@@ -4,33 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
     <title>TRC MACHINE</title>
 </head>
 <body>
-    <h1 class="h1">TRC <span style="color: #af40ff;">MACHINE</span></h1>
+    <!-- <h1 style="color: #0ad1d1; translate: 550px;">MASSIVOS</h1> -->
+     <!-- PRIMEIRO GRAFICO -->
+    <div id="grafico" style=" position: absolute; width: 900px; height: 500px; translate: 10px; margin-top: 135px;"></div>
+
+    <script>
+        // Carrega o pacote de gráficos
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            // Faz uma solicitação para obter os dados
+            fetch('asc.php')
+                .then(response => response.json())
+                .then(data => {
+                    // Prepara os dados para o Google Charts
+                    const dataTable = new google.visualization.DataTable();
+                    dataTable.addColumn('string', 'Mês');
+                    dataTable.addColumn('number', 'ASC');
+                    dataTable.addRows(data);
+
+                    // Cria o gráfico
+                    const chart = new google.visualization.ColumnChart(document.getElementById('grafico'));
+                    const options = {
+  title: 'ASC SEMANA',
+  curveType: 'line',
+//   legend: { position: 'bottom' },
+  colors: ['#07dada', '#07dada', '#07dada'],
+  backgroundColor: 'rgb(7, 91, 133)',
+  hAxis:{
+    gridlines:{
+      color: '#202020',
+      count: 10
+    }
+  },
+  vAxis: {
+    gridlines:{
+      color:'#202020',
+      count:5
+    }
+  },
+  animation: {
+    duration: 1000,
+    easing:'inAndOut',
+    startup: true,
+    frames: [
+      { // keyframe 1
+        percent: 0,
+        opacity: 0
+      },
+      { // keyframe 2
+        percent: 50,
+        opacity: 0.5
+      },
+      { // keyframe 3
+        percent: 100,
+        opacity: 1
+      }
+    ]
+  },
+  chartArea: {
+    backgroundColor: 'rgb(7, 57, 82)'
+  }
+};
+                    chart.draw(dataTable, options);
+                    
+                });
+                
+        }
+
+
+        // SEGUNDO GFAFICO 
+    </script>
+        <div id="grafico1" style=" position: absolute; width: 900px; height: 500px; translate: 990px; margin-top: 135px;"></div>
+
+        <script>
+            // Carrega o pacote de gráficos
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+    
+            function drawChart() {
+                // Faz uma solicitação para obter os dados
+                fetch('receptivo.php')
+                    .then(response => response.json())
+                    .then(data => {
+                        // Prepara os dados para o Google Charts
+                        const dataTable = new google.visualization.DataTable();
+                        dataTable.addColumn('string', 'Mês');
+                        dataTable.addColumn('number', 'ASC');
+                        dataTable.addRows(data);
+    
+                        // Cria o gráfico
+                        const chart = new google.visualization.ColumnChart(document.getElementById('grafico1'));
+                        const options = {
+      title: 'RECEPTIVO SEMANA',
+      curveType: 'line',
+    //   legend: { position: 'bottom' },
+      colors: ['#07dada', '#07dada', '#07dada'],
+      backgroundColor: 'rgb(7, 91, 133)',
+      hAxis:{
+        gridlines:{
+          color: '#202020',
+          count: 10
+        }
+      },
+      vAxis: {
+        gridlines:{
+          color:'#202020',
+          count:5
+        }
+      },
+      animation: {
+        duration: 1000,
+        easing:'inAndOut',
+        startup: true,
+        frames: [
+          { // keyframe 1
+            percent: 0,
+            opacity: 0
+          },
+          { // keyframe 2
+            percent: 50,
+            opacity: 0.5
+          },
+          { // keyframe 3
+            percent: 100,
+            opacity: 1
+          }
+        ]
+      },
+      chartArea: {
+        backgroundColor: 'rgb(7, 57, 82)'
+      }
+    };
+                        chart.draw(dataTable, options);
+                        
+                    });
+                    
+            }
+        </script>
+    <h1 class="h1">TRC <span style="color: #0ad1d1;">MACHINE</span></h1>
     <div id="pagbank">
-       <h2 class="pagbank" style="color: rgba(44, 211, 11, 0.432); font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">PAGBANK</h2>
-       <h2 style="color: rgb(255, 254, 253);  font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 59</h2>
-       <h2 style="color: rgb(18, 85, 4);  font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 20</h2>
-       <h2 style="color: rgb(177, 12, 12); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 5</h2>
+       <h2 class="pagbank" style="color: rgba(49, 240, 11, 0.747); font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">PAGBANK</h2>
+       <h2 style="color: rgb(248, 143, 6);  font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 59</h2>
+       <h2 style="color: rgb(49, 219, 14);  font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 20</h2>
+       <h2 style="color: rgb(223, 18, 18); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 5</h2>
     </div>
     <div id="losango">
-        <h2 class="losango" style="color: rgba(185, 8, 117, 0.432);  font-size: 30px; font-family: Arial, Helvetica, sans-serif;translate: 35px;">LOSANGO</h2>
-        <h2 style="color: rgb(255, 254, 253);font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 100</h2>
-        <h2 style="color: rgb(18, 85, 4); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate:-150px;">RECEPTIVO: 30</h2>
-       <h2 style="color: rgb(177, 12, 12); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -300px;">ABANDONO: 10</h2>
+        <h2 class="losango" style="color: rgba(240, 7, 151, 0.767);  font-size: 30px; font-family: Arial, Helvetica, sans-serif;translate: 35px;">LOSANGO</h2>
+        <h2 style="color: rgb(248, 143, 6);font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 100</h2>
+        <h2 style="color: rgb(49, 219, 14); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate:-150px;">RECEPTIVO: 30</h2>
+       <h2 style="color: rgb(223, 18, 18); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -300px;">ABANDONO: 10</h2>
      </div>
      <div id="berlanda">
-        <h2 class="berlanda" style="color: rgba(14, 71, 194, 0.432);   font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">BERLANDA</h2>
-        <h2 style="color: rgb(255, 254, 253);font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 20</h2>
-        <h2 style="color: rgb(18, 85, 4); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 20</h2>
-       <h2 style="color: rgb(177, 12, 12); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 7</h2>
+        <h2 class="berlanda" style="color: rgba(12, 87, 248, 0.904);   font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">BERLANDA</h2>
+        <h2 style="color: rgb(248, 143, 6);font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 20</h2>
+        <h2 style="color: rgb(49, 219, 14); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 20</h2>
+       <h2 style="color: rgb(223, 18, 18); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 7</h2>
      </div>
      <div id="renner">
-        <h2 class="renner" style="color: rgba(158, 17, 12, 0.432);  font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">RENNER</h2>
-        <h2 style="color: rgb(255, 254, 253); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 60</h2>
-        <h2 style="color: rgb(18, 85, 4); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 40</h2>
-       <h2 style="color: rgb(177, 12, 12); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 10</h2>
+        <h2 class="renner" style="color: rgba(248, 17, 9, 0.822);  font-size: 30px; font-family: Arial, Helvetica, sans-serif; translate: 35px;">RENNER</h2>
+        <h2 style="color: rgb(248, 143, 6); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 100px; translate: -60px;">ASC: 60</h2>
+        <h2 style="color: rgb(49, 219, 14); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 150px; translate: -140px;">RECEPTIVO: 40</h2>
+       <h2 style="color: rgb(223, 18, 18); font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top: 200px; translate: -290px;">ABANDONO: 10</h2>
      </div>
     <form>
         <button  button="type" class="sair"><strong>sair</strong></button>
