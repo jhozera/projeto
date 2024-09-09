@@ -1,3 +1,21 @@
+@media (max-width: 768px) {
+  .conteudo {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .conteudo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .conteudo {
+    width: 70%;
+  }
+}
+
 @keyframes animacao {
     0% {
       transform: translateX(-15px);
@@ -27,7 +45,7 @@
   }
 
   #pagbank:hover {
-    background-color: rgba(7, 138, 29, 0.1);
+    background-color: rgba(12, 189, 42, 0.5);
     animation: animacao 7s infinite;
 
   }
@@ -45,7 +63,7 @@
   }
 
   #losango:hover {
-    background-color: rgba(133, 6, 80, 0.1);
+    background-color: rgba(211, 6, 125, 0.521);
     animation: animacao 7s infinite;
 
   }
@@ -64,7 +82,7 @@
   }
 
   #renner:hover {
-    background-color: rgba(168, 7, 7, 0.1);
+    background-color: rgba(168, 7, 7, 0.548);
     animation: animacao 7s infinite;
 
   }
@@ -83,7 +101,62 @@
   }
 
   #berlanda:hover {
-    background-color: rgba(9, 85, 224, 0.1);
+    background-color: rgba(9, 84, 224, 0.575);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  #bradesco:hover {
+    background-color: rgba(224, 9, 9, 0.575);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  #eletrozema:hover {
+    background-color: rgba(194, 182, 10, 0.575);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  #credipar:hover {
+    background-color: rgba(201, 151, 14, 0.575);
     animation: animacao 7s infinite;
 
   }
@@ -188,6 +261,7 @@ body {
     background: linear-gradient(to bottom, rgb(7, 91, 133), #202020);
     height: 400vh;
     margin: 0;
+    max-width: 1200px;
 }
 
 h1 {
@@ -218,7 +292,7 @@ h1 {
 .importacao {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 57, 82);
+  background-color:rgb(7, 91, 133);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -248,7 +322,7 @@ h1 {
 .estrategia {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 57, 82);
+  background-color:rgb(7, 91, 133);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -262,7 +336,7 @@ h1 {
 .campanhas {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 57, 82);
+  background-color:rgb(7, 91, 133);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -296,24 +370,24 @@ h1 {
 #pagbank {
   display: flex;
   position: absolute;
-  background: linear-gradient(to bottom, rgb(25, 25, 26 ), #00000010);
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
   border-radius: 20px;
-  width: 600px;
+  width: 500px;
   height: 275px;
   margin-top: 650px;
-  translate: 200px;
+  translate: 100px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
 
 #losango {
   display: flex;
   position: absolute;
-  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
   border-radius: 20px;
-  width: 600px;
+  width: 500px;
   height: 275px;
   margin-top: 650px;
-  translate: 1000px;
+  translate: 700px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
   
 }
@@ -321,25 +395,68 @@ h1 {
 #berlanda {
   display: flex;
   position: absolute;
-  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
   border-radius: 20px;
-  width: 600px;
+  width: 500px;
   height: 275px;
-  margin-top: 1000px;
-  translate: 1000px;
+  margin-top: 650px;
+  translate: 1300px;
   box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
 
 #renner {
   display: flex;
   position: absolute;
-  background: linear-gradient(to bottom, rgb(25, 25, 26), #9696961c);
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
   border-radius: 20px;
-  width: 600px;
+  width: 500px;
   height: 275px;
   margin-top: 1000px;
-  translate: 200px;
- 
+  translate: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+
+#bradesco {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
+  border-radius: 20px;
+  width: 500px;
+  height: 275px;
+  margin-top: 1000px;
+  translate: 700px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
    
 }
+
+#eletrozema {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
+  border-radius: 20px;
+  width: 500px;
+  height: 275px;
+  margin-top: 1000px;
+  translate: 1300px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+   
+}
+
+
+
+#credipar {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
+  border-radius: 20px;
+  width: 500px;
+  height: 275px;
+  margin-top: 1350px;
+  translate: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+   
+}
+
+
 

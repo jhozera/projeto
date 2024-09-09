@@ -1,13 +1,13 @@
 <?php
 header('Content-Type: application/json');
 
-// Dados fictícios
+// Dados fictícios com cores
 $data = [
-    ['seg', 200],
-    ['ter', 100],
-    ['qua', 400],
-    ['qui', 250],
-    ['sext', 200]
+    ["Segunda", 60, "#03dce4"],
+    ["Terça", 80, "#03dce4"],
+    ["Quarta", 100, "#03dce4"],
+    ["Quinta", 120, "#03dce4"],
+    ["Sexta", 90, "#03dce4"]
 ];
 
 // Envia os dados como JSON
