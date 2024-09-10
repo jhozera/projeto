@@ -1,3 +1,4 @@
+
 @media (max-width: 768px) {
   .conteudo {
     width: 90%;
@@ -258,7 +259,7 @@
 
 
 body {
-    background: linear-gradient(to bottom, rgb(7, 91, 133), #202020);
+    background: linear-gradient(to bottom, rgb(28, 131, 182), #202020);
     height: 400vh;
     margin: 0;
     max-width: 1200px;
@@ -292,7 +293,7 @@ h1 {
 .importacao {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 91, 133);
+  background-color:rgb(28, 131, 182);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -322,7 +323,7 @@ h1 {
 .estrategia {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 91, 133);
+  background-color:rgb(28, 131, 182);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
@@ -336,7 +337,7 @@ h1 {
 .campanhas {
   position: absolute;
   color: rgb(255, 255, 255);
-  background-color:rgb(7, 91, 133);
+  background-color:rgb(28, 131, 182);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 2px;
