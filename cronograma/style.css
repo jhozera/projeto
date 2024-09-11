@@ -1,0 +1,259 @@
+@keyframes animacao {
+    0% {
+        transform: translateX(-15px);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(-15px);
+    }
+}
+
+h1:hover {
+    animation: animacao 10s infinite;
+}
+
+
+/* @keyframes animacao {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translate(-5px);
+    }
+}
+
+#cronograma:hover {
+      animation: animacao 15s infinite;
+} */
+
+
+@keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .pagbank:hover {
+    background-color: rgba(21, 235, 57, 0.452);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .renner:hover {
+    background-color: rgba(235, 46, 21, 0.781);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .bradesco:hover {
+    background-color: rgba(235, 21, 21, 0.767);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .zema:hover {
+    background-color: rgba(21, 174, 235, 0.452);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .berlanda:hover {
+    background-color: rgba(21, 174, 235, 0.452);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .ligga:hover {
+    background-color: rgba(235, 167, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .return:hover {
+    background-color: rgba(235, 21, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .mercado:hover {
+    background-color: rgba(235, 21, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .credipar:hover {
+    background-color: rgba(235, 135, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .itapeva:hover {
+    background-color: rgba(21, 235, 207, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+
+
+body {
+   background: linear-gradient(to bottom, rgb(28, 131, 182), #202020);
+   margin: 0;
+   height: 200vh;
+}
+
+h1 {
+    position: absolute;
+    margin-left: 900px;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cronograma {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 200px;
+    display: flex;
+    background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+    border-radius: 10px;
+    max-width: 600px;
+    height: 350px;
+    padding: 10px;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.pagbank, .renner, .bradesco, .zema, .berlanda, .ligga, .return, .mercado, .itapeva, .credipar {
+    color: white;
+    background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    /* box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010; */
+}

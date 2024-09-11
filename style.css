@@ -258,6 +258,29 @@
   }
 
 
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .cronograma:hover {
+    background-color: rgba(102, 12, 192, 0.2);
+    animation: animacao 7s infinite;
+
+  }
+
+
+
+
+
 body {
     background: linear-gradient(to bottom, rgb(28, 131, 182), #202020);
     height: 400vh;
@@ -346,6 +369,20 @@ h1 {
   height: 30px;
   margin-top: -50px;
   translate: 1000px;
+}
+
+.cronograma {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color:rgb(28, 131, 182);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  width: 157px;
+  height: 30px;
+  margin-top: -50px;
+  translate: 1200px;
 }
 
 
