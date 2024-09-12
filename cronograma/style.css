@@ -10,7 +10,7 @@
     }
 }
 
-h1:hover {
+.h1a:hover {
     animation: animacao 10s infinite;
 }
 
@@ -172,6 +172,24 @@ h1:hover {
     } 
   }
 
+  .sercomtel:hover {
+    background-color: rgba(21, 157, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
   .mercado:hover {
     background-color: rgba(235, 21, 21, 0.836);
     animation: animacao 7s infinite;
@@ -215,11 +233,319 @@ h1:hover {
   }
 
 
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .tenda:hover {
+    background-color: rgba(235, 64, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .direcional:hover {
+    background-color: rgba(235, 64, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .rni:hover {
+    background-color: rgba(235, 64, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .next:hover {
+    background-color: rgba(21, 235, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .estacio:hover {
+    background-color: rgba(21, 221, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .wyden:hover {
+    background-color: rgba(235, 82, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .stone:hover {
+    background-color: rgba(235, 82, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .parana:hover {
+    background-color: rgba(21, 174, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .bmg:hover {
+    background-color: rgba(139, 21, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .getn:hover {
+    background-color: rgba(235, 21, 21, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .credifx:hover {
+    background-color: rgba(21, 192, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .crediva:hover {
+    background-color: rgba(21, 192, 235, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .sicoob:hover {
+    background-color: rgba(9, 90, 45, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .bari:hover {
+    background-color: rgba(12, 198, 211, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .div:hover {
+    background-color: rgba(12, 211, 111, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .ativos:hover {
+    background-color: rgba(12, 25, 211, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
+  @keyframes animacao {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translate(-5px);
+    } 
+  }
+
+  .cresol:hover {
+    background-color: rgba(191, 211, 12, 0.836);
+    animation: animacao 7s infinite;
+
+  }
+
 
 body {
    background: linear-gradient(to bottom, rgb(28, 131, 182), #202020);
    margin: 0;
-   height: 200vh;
+   height: 150vh;
 }
 
 h1 {
@@ -230,15 +556,15 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#cronograma {
+#mauricio {
     position: absolute;
-    margin-left: 35%;
+    margin-left: 1600px;
     margin-top: 200px;
     display: flex;
-    background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+    background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
     border-radius: 10px;
-    max-width: 600px;
-    height: 350px;
+    max-width: 300px;
+    height: 300px;
     padding: 10px;
     justify-content: space-between;
     gap:10px;
@@ -246,14 +572,218 @@ h1 {
     box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
 }
 
-.pagbank, .renner, .bradesco, .zema, .berlanda, .ligga, .return, .mercado, .itapeva, .credipar {
+.zema, .ligga, .return, .sercomtel {
     color: white;
-    background: linear-gradient(to bottom, rgb(7, 91, 133), #00000080);
+    background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    border: transparent;
     border-radius: 10px;
     padding: 10px;
-    width: 130px;
+    width: 135px;
     height: 100px;
-    /* box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010; */
+    box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#luciane {
+  position: absolute;
+  margin-left: 1600px;
+  margin-top: 650px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.tenda, .direcional, .rni {
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 135px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#karen {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 200px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.bradesco, .next{
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 135px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#isis {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 200px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.estacio, .wyden{
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 135px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#maiara {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 200px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 400px;
+  height: 350px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.pagbank, .getn, .bmg, .parana, .stone{
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 135px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#vivian {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 650px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 400px;
+  height: 350px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.credi, .itapeva, .bradesco, .sicoob, .bari, .div, .ativos{
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#bruno {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 650px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.berlanda, .mercado, .renner, .cresol { 
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 135px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
+}
+
+#armando {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 650px;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.8), #00000080);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  gap:10px;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 35px  #00000010, -20px -20px 35px #00000010;
+}
+
+.itapeva, .credifx, .crediva{ 
+  color: white;
+  background: linear-gradient(to bottom, rgba(7, 91, 133, 0.10), #00000080);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 145px;
+  height: 100px;
+  box-shadow: 5px 5px 10px  #00000010, -5px -5px 10px #00000010;
 }
